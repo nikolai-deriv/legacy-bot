@@ -448,6 +448,7 @@
                 width: inherit;
                 background:unset;
                 height: unset;
+                padding: 0 16px 50px 16px;
             }
 
             &.show {
@@ -475,7 +476,7 @@
                 @include mobile{
                     width: auto;
                     margin: 14px 0;
-                    padding: 14px 0;
+                    padding: 14px 16px;
                 }
 
                 &:not(.platform__list-item--active):hover {
